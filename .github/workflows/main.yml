@@ -1,4 +1,4 @@
-name: Main Task_Manager workflow
+name: Main Task Manager workflow
 
 on:
   push:
