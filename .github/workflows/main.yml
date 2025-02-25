@@ -1,4 +1,4 @@
-name: Main Task Manager workflow
+name: Main Task_Manager workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  tests:
+  backend_tests:
     runs-on: ubuntu-latest
     services:
       postgres:
