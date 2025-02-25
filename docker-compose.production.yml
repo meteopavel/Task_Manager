@@ -11,18 +11,18 @@ services:
     volumes:
       - pg_data_production:/var/lib/postgresql/data
   backend:
-    image: meteopavel/taski_backend
+    image: meteopavel/task_manager_backend
     env_file: .env
     volumes:
       - static_volume:/backend_static
   frontend:
-    image: meteopavel/taski_frontend
+    image: meteopavel/task_manager_frontend
     env_file: .env
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static_volume:/frontend_static
   gateway:
-    image: meteopavel/taski_gateway
+    image: meteopavel/task_manager_gateway
     env_file: .env
     volumes:
       - static_volume:/staticfiles/
