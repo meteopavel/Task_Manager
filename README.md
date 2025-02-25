@@ -1,2 +1,2 @@
-# task_manager
+# Task Manager
 Сервис для планирования задач
