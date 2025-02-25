@@ -10,7 +10,8 @@ DEBUG = os.getenv('DEBUG_VALUE') == 'True'
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(' ')
 
-CORS_ORIGIN_WHITELIST = os.getenv('CORS_ORIGIN_WHITELIST', '').split(' ')
+CORS_ORIGIN_WHITELIST = os.getenv('CORS_ORIGIN_WHITELIST',
+                                  'http://localhost:3000').split(' ')
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
