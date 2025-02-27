@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/meteopavel/Task_Manager">
-    <img src="images/logo-big.png" alt="Logo" width="320" height="180">
+    <img src="images/logo-big.png" alt="Logo" width="300" height="300">
   </a>
 
   <h3 align="center">Task Manager</h3>
