@@ -21,7 +21,6 @@ services:
       - static_volume:/backend_static
   frontend:
     image: meteopavel/task_manager_frontend
-    restart: unless-stopped
     env_file: .env
     command: cp -r /app/build/. /frontend_static/
     volumes:
