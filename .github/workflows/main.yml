@@ -159,7 +159,7 @@ jobs:
           sudo docker compose -f docker-compose.production.yml exec backend python manage.py collectstatic --no-input
 
   send_message:
-    name: Send_Message
+    name: Send_Message+
     runs-on: ubuntu-latest
     needs: deploy
     steps:
